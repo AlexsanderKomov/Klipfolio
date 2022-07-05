@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --color-btn: #3d455c;
+  --color-text: #333;
+  --color-bg: #21264f;
+  --color-footer: ;
+  --color-active: ;
+  --color-white: #fff;
+  --color-btn-bg: ;
+}
+
+.title-reset {
+  margin: 0;
+}
+
+.p-reset {
+  margin: 0;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1198px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+}
+
+.btn-power {
+  padding: 14px 15px;
+  border-radius: 32px;
+  font-weight: 800;
+  color: var(--color-white);
+}

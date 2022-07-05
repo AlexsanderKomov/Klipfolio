@@ -1,0 +1,86 @@
+.ican {
+  margin-bottom: 300px;
+}
+
+.ican__container {
+  position: relative;
+  height: 940px;
+  border-radius: 40px;
+  padding-top: 54px;
+  background-color: #303881;
+}
+
+.ican__title {
+  margin: 0;
+  margin-bottom: 17px;
+  padding-left: 250px;
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 82px;
+  letter-spacing: 2.04px;
+  color: var(--color-white);
+}
+
+.ican__descr {
+  margin: 0;
+  margin-bottom: 66px;
+  padding-left: 250px;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--color-white);
+}
+
+.ican svg {
+  position: relative;
+  left: 25px;
+}
+
+.ican__decor {
+  position: absolute;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+
+.ican__decor-1 {
+  top: 29px;
+  left: -146px;
+}
+
+.ican__decor-2 {
+  top: 219px;
+  left: -29.5px;
+}
+
+.ican__decor-3 {
+  top: 360px;
+  left: -30.5px;
+  background-image: url(../../img/ican-3.png);
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+
+.ican__decor-4 {
+  bottom: 331px;
+  left: -130.5px;
+}
+
+.ican__decor-5 {
+  top: 119px;
+  right: 39px;
+  background-image: url(../../img/ican-5.jpg);
+  background-position: center;
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+
+.ican__decor-6 {
+  top: 199px;
+  right: -32.5px;
+}
+
+.ican__decor-7 {
+  top: 319px;
+  right: 97.5px;
+}
