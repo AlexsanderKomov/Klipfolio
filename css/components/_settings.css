@@ -13,7 +13,7 @@ body {
   font-weight: 400;
 }
 
-a {
+:where(a[class]) {
   color: inherit;
   text-decoration: none;
 }
@@ -28,29 +28,25 @@ a {
   --color-btn-bg: ;
 }
 
-.title-reset {
+:where(h1[class],h2[class],h3[class],p[class]) {
   margin: 0;
 }
 
-.p-reset {
+/* .p-reset {
   margin: 0;
-}
+} */
 
-.list-reset {
+:where(li[class]) {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.btn-reset {
+:where(button[class]) {
   padding: 0;
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
-
-.flex {
-  display: flex;
 }
 
 .container {
