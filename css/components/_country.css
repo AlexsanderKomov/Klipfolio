@@ -1,0 +1,49 @@
+.country {
+  margin-bottom: 200px;
+}
+
+.country__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.country__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 1440px;
+  height: 537px;
+  background-image: url(../../img/bg-country.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.country__wrapper svg {
+  position: relative;
+  top: 44px;
+}
+
+.country__title {
+  margin: 0;
+  margin-bottom: 18px;
+  padding-left: 46px;
+  width: 65%;
+  font-weight: 800;
+  font-size: 68px;
+  line-height: 82px;
+  letter-spacing: 2.04px;
+  color: var(--color-bg);
+}
+
+.country__descr {
+  margin: 0;
+  padding-left: 46px;
+  width: 65%;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--color-bg);
+}

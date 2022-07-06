@@ -1,0 +1,29 @@
+.business {
+  margin-bottom: 265px;
+}
+
+.business__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 266px;
+}
+
+.business__title {
+  position: relative;
+  top: -3px;
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 800;
+  font-size: 68px;
+  line-height: 82px;
+  letter-spacing: 2.04px;
+  color: var(--color-bg);
+}
+
+.business__descr {
+  margin: 0;
+  font-size: 32px;
+  line-height: 38px;
+  color: #21264F;
+}
